@@ -39,5 +39,13 @@ jobs:
 
       - store_artifacts:
           path: test-reports
-          destination: test-reports
+          destination: test-report
+  test-3.5: 
+    <<: *template
+    docker:
+      - image: python3.5
+  test-3.6:
+    <<: *template
+    docker: 
+      - image: python3.6
           
