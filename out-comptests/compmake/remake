@@ -1,2 +1,0 @@
-#!/bin/bash
-compmake /home/jonas/git/duckietown-test-and-validation/out-comptests/compmake -c "remake $*"

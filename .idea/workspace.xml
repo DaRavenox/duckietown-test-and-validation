@@ -2,11 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c64d252c-b9fb-42d1-89db-abac6b526a33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib_tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib_tests/lib_test_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-_dynreports_create_index.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-_dynreports_create_index.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-_dynreports_merge.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-_dynreports_merge.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-_dynreports_getbra-2.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-_dynreports_getbra-2.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-_dynreports_getbra.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-_dynreports_getbra.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-_dynreports_getres-2.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-_dynreports_getres-2.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-_dynreports_getres.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-_dynreports_getres.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-_dynreports_merge.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-_dynreports_merge.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-comptests.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-comptests.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-context-0.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-context-0.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-context.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-context.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-lib_tests.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-cache-lib_tests-lib_tests.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-job-lib_tests-_dynreports_getbra.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-job-lib_tests-_dynreports_getbra.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/cm-job-lib_tests-_dynreports_getres.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/cm-job-lib_tests-_dynreports_getres.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out-comptests/compmake/logs/manager.log" beforeDir="false" afterPath="$PROJECT_DIR$/out-comptests/compmake/logs/manager.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/details" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/ls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/ls_failed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/make_failed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/parmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/remake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/rmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/rparmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/run" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/stats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out-comptests/compmake/why_failed" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +56,15 @@
         <counts>
           <entry key="makefile" value="1" />
           <entry key="py" value="3" />
+          <entry key="txt" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="3" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -70,11 +97,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -106,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/lib_tests/__init__.py" />
         <option value="$PROJECT_DIR$/src/lib_tests/lib_test_1.py" />
         <option value="$PROJECT_DIR$/makefile" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -132,6 +178,11 @@
             <path>
               <item name="duckietown-test-and-validation" type="b2602c69:ProjectViewProjectNode" />
               <item name="duckietown-test-and-validation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="duckietown-test-and-validation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="duckietown-test-and-validation" type="462c0819:PsiDirectoryNode" />
+              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="duckietown-test-and-validation" type="b2602c69:ProjectViewProjectNode" />
@@ -236,7 +287,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32922825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -272,6 +323,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
