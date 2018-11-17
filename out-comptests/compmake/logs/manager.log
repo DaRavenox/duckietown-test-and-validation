@@ -1,0 +1,488 @@
+add_targets()
+ -         targets: ['_dynreports_create_index', 'lib_tests-_dynreports_getres']
+computed todo
+ -       not_ready: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres']
+ -      ready_todo: ['lib_tests-comptests']
+ -    targets_done: ['lib_tests-context']
+ - targets_todo_plus_deps: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres', 'lib_tests-comptests']
+targets_todo_plus_deps: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres', 'lib_tests-comptests']
+add_targets():adding to todo
+ -            todo: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres']
+ -        todo_add: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres']
+add_targets():adding to ready
+ -           ready: []
+ -       ready_add: ['lib_tests-comptests']
+after add_targets()
+ -            done: ['lib_tests-context']
+ -      processing: []
+ -      ready_todo: ['lib_tests-comptests']
+ -            todo: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres']
+0: -  all_targets: 6
+0: -      blocked: 0
+0: -      deleted: 0
+0: -         done: 1
+0: -       failed: 0
+0: -   processing: 0
+0: -        ready: 1
+0: -         todo: 4
+0: 
+0:  In more details:
+0: -  all_targets: 6 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres', 'lib_tests-comptests', 'lib_tests-context']
+0: -      blocked: -
+0: -      deleted: -
+0: -         done: 1 ['lib_tests-context']
+0: -       failed: -
+0: -   processing: -
+0: -        ready: 1 ['lib_tests-comptests']
+0: -         todo: 4 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres']
+chosen next_job
+ -          job_id: lib_tests-comptests
+start_job
+ -          job_id: lib_tests-comptests
+check_job_finished
+ -          job_id: lib_tests-comptests
+job_succeeded
+ -          job_id: lib_tests-comptests
+considering parents
+ -    parents_todo: ['lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres']
+considering opportuniny
+ -          job_id: lib_tests-comptests
+ -     opportunity: lib_tests-_dynreports_getbra
+parent is ready
+ -     opportunity: lib_tests-_dynreports_getbra
+considering opportuniny
+ -          job_id: lib_tests-comptests
+ -     opportunity: lib_tests-_dynreports_getres
+parent is ready
+ -     opportunity: lib_tests-_dynreports_getres
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: lib_tests-comptests
+ -        new_jobs: ['lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-context-0', 'lib_tests-lib_tests']
+ - user_object_deps: ['lib_tests-_dynreports_merge']
+updating dep
+ -               d: lib_tests-_dynreports_merge
+ -          job_id: lib_tests-comptests
+ -          parent: lib_tests-_dynreports_getbra
+updating dep
+ -               d: lib_tests-_dynreports_merge
+ -          job_id: lib_tests-comptests
+ -          parent: lib_tests-_dynreports_getres
+rescheduling parent
+ -          job_id: lib_tests-comptests
+ -          parent: lib_tests-_dynreports_getbra
+add_targets()
+ -         targets: ['lib_tests-_dynreports_getbra']
+computed todo
+ -       not_ready: ['lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+ -      ready_todo: ['lib_tests-context-0']
+ -    targets_done: ['lib_tests-comptests']
+ - targets_todo_plus_deps: ['lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_merge', 'lib_tests-context-0', 'lib_tests-lib_tests']
+targets_todo_plus_deps: ['lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_merge', 'lib_tests-context-0', 'lib_tests-lib_tests']
+add_targets():adding to todo
+ -            todo: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+ -        todo_add: ['lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+add_targets():adding to ready
+ -           ready: ['lib_tests-_dynreports_getres']
+ -       ready_add: ['lib_tests-context-0']
+after add_targets()
+ -            done: ['lib_tests-comptests', 'lib_tests-context']
+ -      processing: []
+ -      ready_todo: ['lib_tests-_dynreports_getres', 'lib_tests-context-0']
+ -            todo: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+rescheduling parent
+ -          job_id: lib_tests-comptests
+ -          parent: lib_tests-_dynreports_getres
+add_targets()
+ -         targets: ['lib_tests-_dynreports_getres']
+computed todo
+ -       not_ready: ['lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+ -      ready_todo: ['lib_tests-context-0']
+ -    targets_done: ['lib_tests-comptests']
+ - targets_todo_plus_deps: ['lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_merge', 'lib_tests-context-0', 'lib_tests-lib_tests']
+targets_todo_plus_deps: ['lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_merge', 'lib_tests-context-0', 'lib_tests-lib_tests']
+add_targets():adding to todo
+ -            todo: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+ -        todo_add: ['lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+add_targets():adding to ready
+ -           ready: ['lib_tests-context-0']
+ -       ready_add: ['lib_tests-context-0']
+after add_targets()
+ -            done: ['lib_tests-comptests', 'lib_tests-context']
+ -      processing: []
+ -      ready_todo: ['lib_tests-context-0']
+ -            todo: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+add_targets()
+ -         targets: ['lib_tests-_dynreports_getres-2']
+computed todo
+ -       not_ready: ['lib_tests-_dynreports_getres-2', 'lib_tests-lib_tests']
+ -      ready_todo: ['lib_tests-context-0']
+ -    targets_done: []
+ - targets_todo_plus_deps: ['lib_tests-_dynreports_getres-2', 'lib_tests-context-0', 'lib_tests-lib_tests']
+targets_todo_plus_deps: ['lib_tests-_dynreports_getres-2', 'lib_tests-context-0', 'lib_tests-lib_tests']
+add_targets():adding to todo
+ -            todo: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+ -        todo_add: ['lib_tests-_dynreports_getres-2', 'lib_tests-lib_tests']
+add_targets():adding to ready
+ -           ready: ['lib_tests-context-0']
+ -       ready_add: ['lib_tests-context-0']
+after add_targets()
+ -            done: ['lib_tests-comptests', 'lib_tests-context']
+ -      processing: []
+ -      ready_todo: ['lib_tests-context-0']
+ -            todo: ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+1: -  all_targets: 11
+1: -      blocked: 0
+1: -      deleted: 0
+1: -         done: 2
+1: -       failed: 0
+1: -   processing: 0
+1: -        ready: 1
+1: -         todo: 8
+1: 
+1:  In more details:
+1: -  all_targets: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+1: -      blocked: -
+1: -      deleted: -
+1: -         done: 2 ['lib_tests-comptests', 'lib_tests-context']
+1: -       failed: -
+1: -   processing: -
+1: -        ready: 1 ['lib_tests-context-0']
+1: -         todo: 8 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-lib_tests']
+chosen next_job
+ -          job_id: lib_tests-context-0
+start_job
+ -          job_id: lib_tests-context-0
+check_job_finished
+ -          job_id: lib_tests-context-0
+job_succeeded
+ -          job_id: lib_tests-context-0
+considering parents
+ -    parents_todo: ['lib_tests-lib_tests']
+considering opportuniny
+ -          job_id: lib_tests-context-0
+ -     opportunity: lib_tests-lib_tests
+parent is ready
+ -     opportunity: lib_tests-lib_tests
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: lib_tests-context-0
+ -        new_jobs: []
+ - user_object_deps: []
+2: -  all_targets: 11
+2: -      blocked: 0
+2: -      deleted: 0
+2: -         done: 3
+2: -       failed: 0
+2: -   processing: 0
+2: -        ready: 1
+2: -         todo: 7
+2: 
+2:  In more details:
+2: -  all_targets: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+2: -      blocked: -
+2: -      deleted: -
+2: -         done: 3 ['lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0']
+2: -       failed: -
+2: -   processing: -
+2: -        ready: 1 ['lib_tests-lib_tests']
+2: -         todo: 7 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge']
+chosen next_job
+ -          job_id: lib_tests-lib_tests
+start_job
+ -          job_id: lib_tests-lib_tests
+check_job_finished
+ -          job_id: lib_tests-lib_tests
+job_succeeded
+ -          job_id: lib_tests-lib_tests
+considering parents
+ -    parents_todo: ['lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres-2']
+considering opportuniny
+ -          job_id: lib_tests-lib_tests
+ -     opportunity: lib_tests-_dynreports_getbra-2
+parent is ready
+ -     opportunity: lib_tests-_dynreports_getbra-2
+considering opportuniny
+ -          job_id: lib_tests-lib_tests
+ -     opportunity: lib_tests-_dynreports_getres-2
+parent is ready
+ -     opportunity: lib_tests-_dynreports_getres-2
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: lib_tests-lib_tests
+ -        new_jobs: []
+ - user_object_deps: []
+3: -  all_targets: 11
+3: -      blocked: 0
+3: -      deleted: 0
+3: -         done: 4
+3: -       failed: 0
+3: -   processing: 0
+3: -        ready: 2
+3: -         todo: 5
+3: 
+3:  In more details:
+3: -  all_targets: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+3: -      blocked: -
+3: -      deleted: -
+3: -         done: 4 ['lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+3: -       failed: -
+3: -   processing: -
+3: -        ready: 2 ['lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres-2']
+3: -         todo: 5 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_merge']
+chosen next_job
+ -          job_id: lib_tests-_dynreports_getres-2
+start_job
+ -          job_id: lib_tests-_dynreports_getres-2
+check_job_finished
+ -          job_id: lib_tests-_dynreports_getres-2
+job_succeeded
+ -          job_id: lib_tests-_dynreports_getres-2
+considering parents
+ -    parents_todo: []
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: lib_tests-_dynreports_getres-2
+ -        new_jobs: []
+ - user_object_deps: []
+4: -  all_targets: 11
+4: -      blocked: 0
+4: -      deleted: 0
+4: -         done: 5
+4: -       failed: 0
+4: -   processing: 0
+4: -        ready: 1
+4: -         todo: 5
+4: 
+4:  In more details:
+4: -  all_targets: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+4: -      blocked: -
+4: -      deleted: -
+4: -         done: 5 ['lib_tests-_dynreports_getres-2', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+4: -       failed: -
+4: -   processing: -
+4: -        ready: 1 ['lib_tests-_dynreports_getbra-2']
+4: -         todo: 5 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_merge']
+chosen next_job
+ -          job_id: lib_tests-_dynreports_getbra-2
+start_job
+ -          job_id: lib_tests-_dynreports_getbra-2
+check_job_finished
+ -          job_id: lib_tests-_dynreports_getbra-2
+job_succeeded
+ -          job_id: lib_tests-_dynreports_getbra-2
+considering parents
+ -    parents_todo: ['lib_tests-_dynreports_merge']
+considering opportuniny
+ -          job_id: lib_tests-_dynreports_getbra-2
+ -     opportunity: lib_tests-_dynreports_merge
+parent is ready
+ -     opportunity: lib_tests-_dynreports_merge
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: lib_tests-_dynreports_getbra-2
+ -        new_jobs: []
+ - user_object_deps: []
+5: -  all_targets: 11
+5: -      blocked: 0
+5: -      deleted: 0
+5: -         done: 6
+5: -       failed: 0
+5: -   processing: 0
+5: -        ready: 1
+5: -         todo: 4
+5: 
+5:  In more details:
+5: -  all_targets: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+5: -      blocked: -
+5: -      deleted: -
+5: -         done: 6 ['lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres-2', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+5: -       failed: -
+5: -   processing: -
+5: -        ready: 1 ['lib_tests-_dynreports_merge']
+5: -         todo: 4 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres']
+chosen next_job
+ -          job_id: lib_tests-_dynreports_merge
+start_job
+ -          job_id: lib_tests-_dynreports_merge
+check_job_finished
+ -          job_id: lib_tests-_dynreports_merge
+job_succeeded
+ -          job_id: lib_tests-_dynreports_merge
+considering parents
+ -    parents_todo: ['lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres']
+considering opportuniny
+ -          job_id: lib_tests-_dynreports_merge
+ -     opportunity: lib_tests-_dynreports_getbra
+parent is ready
+ -     opportunity: lib_tests-_dynreports_getbra
+considering opportuniny
+ -          job_id: lib_tests-_dynreports_merge
+ -     opportunity: lib_tests-_dynreports_getres
+parent is ready
+ -     opportunity: lib_tests-_dynreports_getres
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: lib_tests-_dynreports_merge
+ -        new_jobs: []
+ - user_object_deps: []
+6: -  all_targets: 11
+6: -      blocked: 0
+6: -      deleted: 0
+6: -         done: 7
+6: -       failed: 0
+6: -   processing: 0
+6: -        ready: 2
+6: -         todo: 2
+6: 
+6:  In more details:
+6: -  all_targets: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+6: -      blocked: -
+6: -      deleted: -
+6: -         done: 7 ['lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+6: -       failed: -
+6: -   processing: -
+6: -        ready: 2 ['lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getres']
+6: -         todo: 2 ['_dynreports_create_index', '_dynreports_merge']
+chosen next_job
+ -          job_id: lib_tests-_dynreports_getbra
+start_job
+ -          job_id: lib_tests-_dynreports_getbra
+check_job_finished
+ -          job_id: lib_tests-_dynreports_getbra
+job_succeeded
+ -          job_id: lib_tests-_dynreports_getbra
+considering parents
+ -    parents_todo: ['_dynreports_merge']
+considering opportuniny
+ -          job_id: lib_tests-_dynreports_getbra
+ -     opportunity: _dynreports_merge
+parent is ready
+ -     opportunity: _dynreports_merge
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: lib_tests-_dynreports_getbra
+ -        new_jobs: []
+ - user_object_deps: []
+7: -  all_targets: 11
+7: -      blocked: 0
+7: -      deleted: 0
+7: -         done: 8
+7: -       failed: 0
+7: -   processing: 0
+7: -        ready: 2
+7: -         todo: 1
+7: 
+7:  In more details:
+7: -  all_targets: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+7: -      blocked: -
+7: -      deleted: -
+7: -         done: 8 ['lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+7: -       failed: -
+7: -   processing: -
+7: -        ready: 2 ['_dynreports_merge', 'lib_tests-_dynreports_getres']
+7: -         todo: 1 ['_dynreports_create_index']
+chosen next_job
+ -          job_id: _dynreports_merge
+start_job
+ -          job_id: _dynreports_merge
+check_job_finished
+ -          job_id: _dynreports_merge
+job_succeeded
+ -          job_id: _dynreports_merge
+considering parents
+ -    parents_todo: ['_dynreports_create_index']
+considering opportuniny
+ -          job_id: _dynreports_merge
+ -     opportunity: _dynreports_create_index
+parent is ready
+ -     opportunity: _dynreports_create_index
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: _dynreports_merge
+ -        new_jobs: []
+ - user_object_deps: []
+8: -  all_targets: 11
+8: -      blocked: 0
+8: -      deleted: 0
+8: -         done: 9
+8: -       failed: 0
+8: -   processing: 0
+8: -        ready: 2
+8: -         todo: 0
+8: 
+8:  In more details:
+8: -  all_targets: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+8: -      blocked: -
+8: -      deleted: -
+8: -         done: 9 ['_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+8: -       failed: -
+8: -   processing: -
+8: -        ready: 2 ['_dynreports_create_index', 'lib_tests-_dynreports_getres']
+8: -         todo: -
+chosen next_job
+ -          job_id: _dynreports_create_index
+start_job
+ -          job_id: _dynreports_create_index
+check_job_finished
+ -          job_id: _dynreports_create_index
+job_succeeded
+ -          job_id: _dynreports_create_index
+considering parents
+ -    parents_todo: []
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: _dynreports_create_index
+ -        new_jobs: []
+ - user_object_deps: []
+9: -  all_targets: 11
+9: -      blocked: 0
+9: -      deleted: 0
+9: -         done: 10
+9: -       failed: 0
+9: -   processing: 0
+9: -        ready: 1
+9: -         todo: 0
+9: 
+9:  In more details:
+9: -  all_targets: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+9: -      blocked: -
+9: -      deleted: -
+9: -         done: 10 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+9: -       failed: -
+9: -   processing: -
+9: -        ready: 1 ['lib_tests-_dynreports_getres']
+9: -         todo: -
+chosen next_job
+ -          job_id: lib_tests-_dynreports_getres
+start_job
+ -          job_id: lib_tests-_dynreports_getres
+check_job_finished
+ -          job_id: lib_tests-_dynreports_getres
+job_succeeded
+ -          job_id: lib_tests-_dynreports_getres
+considering parents
+ -    parents_todo: []
+check_job_finished_handle_result
+ -    deleted_jobs: []
+ -          job_id: lib_tests-_dynreports_getres
+ -        new_jobs: []
+ - user_object_deps: []
+ending: -  all_targets: 11
+ending: -      blocked: 0
+ending: -      deleted: 0
+ending: -         done: 11
+ending: -       failed: 0
+ending: -   processing: 0
+ending: -        ready: 0
+ending: -         todo: 0
+ending: 
+ending:  In more details:
+ending: -  all_targets: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+ending: -      blocked: -
+ending: -      deleted: -
+ending: -         done: 11 ['_dynreports_create_index', '_dynreports_merge', 'lib_tests-_dynreports_getbra', 'lib_tests-_dynreports_getbra-2', 'lib_tests-_dynreports_getres', 'lib_tests-_dynreports_getres-2', 'lib_tests-_dynreports_merge', 'lib_tests-comptests', 'lib_tests-context', 'lib_tests-context-0', 'lib_tests-lib_tests']
+ending: -       failed: -
+ending: -   processing: -
+ending: -        ready: -
+ending: -         todo: -
