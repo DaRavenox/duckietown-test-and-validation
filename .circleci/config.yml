@@ -27,14 +27,11 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            python2.7 -m venv venv
-            . venv/bin/activate
-            pip install -r requirements.txt
+            pip install -q --user --upgrade -r requirements.txt
       # run tests!
       - run:
           name: run tests
           command: |
-            . venv/bin/activate
             python manage.py test
 
       - store_artifacts:
@@ -43,9 +40,9 @@ jobs:
   test-3.5: 
     <<: *template
     docker:
-      - image: python3.5
+      - image: python:3.5
   test-3.6:
     <<: *template
     docker: 
-      - image: python3.6
+      - image: python:3.6
           
