@@ -12,6 +12,9 @@ workflows:
       - test-3.6
 jobs:
   test-2.7: &template
+    environment:
+      COLUMNS: 160
+      PATH: /root/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
     docker:
       - image: circleci/python:2.7
     working_directory: ~/repo
