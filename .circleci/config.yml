@@ -24,6 +24,10 @@ jobs:
           name: install dependencies
           command: |
             pip install -q --user --upgrade -r requirements.txt
+      - run:
+          name: setup
+          command: |
+            make setup
       # run tests!
       - run:
           name: run tests

@@ -1,4 +1,5 @@
 # coding=utf-8
+from .lib_test import *
 
 def jobs_comptests(context):
     # instantiation
