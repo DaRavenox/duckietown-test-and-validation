@@ -1,13 +1,13 @@
-## Duckietown-test-and-validation 
+# Duckietown-test-and-validation 
 
-# Purpose
+## Purpose
 
 This repo is to serve as a template repo for projects in the Duckietown project and it demonstrates how unittests and regression tests should be organized.
 
-# Convention
+## Convention
 
 In your own repo 'lib' should be replaced with your project name. 
 
-# Author
+### Author
 
 Jonas Hongisto, 2018
