@@ -6,3 +6,7 @@ clean:
 
 tests:
 	comptests --nonose lib_tests
+
+evaluate: 
+	dts challenges evaluate
+
