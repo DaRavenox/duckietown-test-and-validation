@@ -1,0 +1,2 @@
+evaluate:
+	dts challenges evaluate

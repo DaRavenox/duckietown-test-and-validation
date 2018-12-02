@@ -17,4 +17,4 @@ class Solver(ChallengeSolution):
 
 
 if __name__ == '__main__':
-wrap_solution(Solver())
+    wrap_solution(Solver())
