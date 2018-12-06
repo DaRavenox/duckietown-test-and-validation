@@ -9,4 +9,5 @@ tests:
 
 evaluate: 
 	dts challenges evaluate
-
+generate_submissions:
+	python generate_submissions.py config submission_directory
