@@ -22,7 +22,6 @@ def create_submissions(config_dir,target_dir):
 		fg.close()
 
 
-
 def main():
 	create_submissions(sys.argv[1], sys.argv[2])
 

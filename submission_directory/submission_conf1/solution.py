@@ -10,7 +10,8 @@ class Solver(ChallengeSolution):
 	'''
 	import myalgorithm	
 	myclass = myalgorithm.MyClass()
-	data = {'data': myclass.run_my_code()}
+	input_from_evaluator = cis.get_challenge_parameters()
+	data = {'data': myclass.run_my_code()+input_from_evaluator['dummy']}
 	cis.set_solution_output_dict(data)
 
 
