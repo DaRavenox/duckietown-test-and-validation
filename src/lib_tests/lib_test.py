@@ -10,5 +10,5 @@ def dummy_test_1():
 @comptest
 def dummy_test_2():
     a = [1,2]
-    b = a[1]
+    b = a[3]
     print('Hello2')
